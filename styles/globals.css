@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Do+Hyeon:400");
+@import url("https://fonts.googleapis.com/css?family=Jua:400");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  padding-bottom: 0.3em;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 38px;
+}
+
+h2 {
+  padding-bottom: 0.3em;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 30px;
+  border-bottom: 1px solid hsla(210, 18%, 87%, 1);
+}
+
+h3 {
+  padding-bottom: 0.3em;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+h4 {
+  padding-bottom: 0.3em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.p1 {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.p2 {
+  font-size: 15px;
+  line-height: 21px;
+}
+.p3 {
+  font-size: 13px;
+  line-height: 18px;
+}
+.p4 {
+  font-size: 11px;
+  line-height: 15px;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 24px;
+  outline: 0;
+  border: solid 1px #efefef;
+  width: 24px;
+}
+input[type="checkbox"]::after {
+  border: solid 1px #5d88f2;
+  border-width: 0 2px 2px 0;
+  content: "";
+  display: none;
+  height: 40%;
+  left: 40%;
+  position: relative;
+  top: 20%;
+  transform: rotate(45deg);
+  width: 18%;
+}
+input[type="checkbox"]:checked {
+  background: #fff;
+  border: solid 1px #efefef;
+}
+input[type="checkbox"]:checked::after {
+  display: block;
+}
+
+.notion-page-no-cover {
+  margin-top: 0 !important;
+}
